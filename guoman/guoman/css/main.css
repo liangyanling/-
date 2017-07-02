@@ -1,0 +1,149 @@
+.head{
+    width:100%;
+    height:60px;
+    background-color:#25282a;
+}
+.head .head-center{
+    width:90%;
+    height:60px;
+    /* background-color:red;*/
+    margin:0 auto;
+}
+.head .head-center .log{
+    float:left;
+}
+.head .head-center .nav{
+    float:right;
+}
+.nav .nav-ul li{
+    float:left;
+    line-height:60px;
+}
+.nav .nav-ul li a{
+    color:#fff;
+    font-weight:bold;
+    margin:20px;
+    font-size:16px;
+}
+/*//中间部分*/
+.box .boxleft{
+    margin:0 auto;
+    margin-top:25px;
+    border:1px solid #eee;
+    width:90%;
+    background-color:white;
+}
+.box .boxleft .boxcenter,.boxTop{
+    width:90%;
+    margin:0 auto;
+    padding:10px;
+
+}
+.box .boxleft .boxcenter .boxone{
+    width:90%;
+    margin:0 auto;
+}
+.box .boxleft .boxcenter .boxone .boxone1{
+    height:120px;
+    border-bottom:1px solid #9b9b9b;
+
+}
+.box .boxleft .boxcenter .boxone .boxone1 img{
+    height:30px;
+}
+.box .boxleft .boxcenter .boxone .boxone1 .box1{
+    width:45%;
+    padding:16px 10px;
+    float:left;
+}
+.box .boxleft .boxcenter  .boxone .box1_img1{
+    float:left;
+    margin-right:10px;
+}
+.box .boxleft .boxcenter .boxone .box1_text{
+    float:left;
+}
+.box .boxleft .boxcenter .boxone .box1_text .old{
+    display:block;
+    width:100px;
+    height:20px;
+    background-color:#99cfff;
+    color:#fff;
+    text-align:center;
+    border-radius:5px;
+}
+.box .boxleft .boxcenter .boxone .box1_text .old:hover{
+    text-decoration: none;
+    background-color:#499EF3;
+}
+.box .boxleft .boxcenter .boxone .box1_text .ptext{
+    font-size:12px;
+    color:#999;
+    line-height:45px;
+}
+.box .boxleft .boxcenter .boxone .box1_text .ptext2{
+    font-size:12px;
+    color:#999;
+
+}
+
+
+/*<!--下面分页-->*/
+.page{
+  float:right;
+    margin:20px;
+    text-align:center;
+    line-height:30px;
+
+}
+.page ul li{
+    display:block;
+    width:40px;
+    height:30px;
+    border:1px solid #555555;
+    float:left;
+    color:#999;
+   }
+.page ul li:nth-child(1){
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+
+}
+
+.page ul li.show{
+    background-color:#499EF3;
+}
+.page ul li:hover a{
+    text-decoration: none;
+}
+.page ul li:hover{
+    background-color:#ddd;;
+}
+.page ul li:nth-child(6){
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+/*右边*/
+.box .boxright{
+    float:left;
+    width:270px;
+
+  /*  border:1px solid #1d2ce2;*/
+}
+/*footer*/
+/*<!--底部-->*/
+.foot{
+    width:100%;
+    height:74px;
+    background-color:#111;
+    border-top: solid 1px #111;
+}
+.foot .foot_in{
+    width:90%;
+    margin:0 auto;
+}
+.foot .foot_in .foot_text{
+    text-align:center;
+    line-height:74px;
+    color:#fff;
+}
